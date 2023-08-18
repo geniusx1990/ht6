@@ -3,7 +3,7 @@ function multiline(strings) {
   const result = [];
 
   for (let i = 1; i < lines.length - 1; i++) {
-    const line = lines[i].trim(); 
+    const line = lines[i];
     result.push(`${i} ${line}`);
   }
 
